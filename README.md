@@ -1,5 +1,5 @@
 # Exploring PM2.5 Air Quality Patterns in London
-IJC445 Data Visualisation Coursework (2025–2026)
+## IJC445 Data Visualisation Coursework (2025–2026)
 Overview
 
 This project examines how temporal scale and environmental framing influence the interpretation of PM2.5 variability and WHO guideline exceedance in London between 2016 and 2025.
