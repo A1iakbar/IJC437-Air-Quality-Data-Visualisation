@@ -24,6 +24,8 @@ How does the choice of temporal scale and environmental framing (season and dail
 The analysis is structured around a composite visualisation consisting of four coordinated charts:
 
 - **Figure 1:** Daily PM2.5 concentrations with a 30-day rolling mean, highlighting the contrast between short-term volatility and smoothed trends.
+<img width="3000" height="1350" alt="Fig1_timeseries_raw_vs_roll30" src="https://github.com/user-attachments/assets/f787ba34-3be2-4303-9e11-68f7dc84d2bd" />
+
 
 - **Figure 2:** Annual share of days exceeding the WHO 24-hour PM2.5 guideline, framing air quality through regulatory compliance.
 
@@ -58,8 +60,9 @@ merged_pm25_weather.csv
 
 scripts/
 00_setup_packages.R
-01_data_preparation.R
-02_visualisations.R
+01_fetch_openmeteo_weather.R
+02_data_preparation.R
+03_visualisations.R
 
 output/
 figures/
