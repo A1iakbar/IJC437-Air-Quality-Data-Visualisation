@@ -9,6 +9,7 @@ Research Question
 How does the choice of temporal scale and environmental framing (season and daily weather conditions) shape the interpretation of PM2.5 variability and WHO guideline exceedance in London (2016–2025)?
 
 The project treats visualisation not as a neutral display but as an analytical framing process. Different representations (daily values, rolling means, threshold exceedance, seasonal aggregation, and weather-based categorisation) highlight different aspects of pollution risk.
+<img width="801" height="429" alt="image" src="https://github.com/user-attachments/assets/415b891f-876d-4d3d-8109-0428ac74ecaa" />
 
 Composite Visualisation Overview
 
