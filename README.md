@@ -1,4 +1,4 @@
-##Exploring PM2.5 Air Quality Patterns in London
+## Exploring PM2.5 Air Quality Patterns in London
 IJC445 Data Visualisation Coursework (2025–2026)
 Overview
 
