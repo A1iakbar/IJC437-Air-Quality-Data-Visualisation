@@ -8,7 +8,7 @@ Rather than treating visualisation as a neutral display tool, the analysis appro
 
 ### Research Question
 
-@ How does the choice of temporal scale and environmental framing (season and daily weather conditions) shape the interpretation of PM2.5 variability and WHO guideline exceedance in London (2016–2025)?
+How does the choice of temporal scale and environmental framing (season and daily weather conditions) shape the interpretation of PM2.5 variability and WHO guideline exceedance in London (2016–2025)?
 
 The project connects empirical air quality data with regulatory relevance, demonstrating how design decisions alter interpretive emphasis.
 
