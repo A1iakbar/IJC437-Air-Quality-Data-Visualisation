@@ -59,7 +59,6 @@ Together, these figures demonstrate that PM2.5 risk is not defined by a single m
 - **Open-Meteo** – Daily meteorological data (temperature, wind speed, precipitation, humidity)  
   https://open-meteo.com
 
-- **World Health Organization (WHO)** – 24-hour PM2.5 guideline (15 µg/m³)
 
 The same core dataset as IJC437 is used, with additional derived variables created specifically for visualisation purposes.
 
@@ -68,6 +67,7 @@ The same core dataset as IJC437 is used, with additional derived variables creat
 ## Repository Structure
 
 data/
+/processed/pm25_weather_viz_ready
 primary_pm25_daily_london.csv
 openmeteo_daily_london.csv
 merged_pm25_weather.csv
