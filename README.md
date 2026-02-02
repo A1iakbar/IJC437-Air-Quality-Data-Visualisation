@@ -1,97 +1,119 @@
-# Exploring PM2.5 Air Quality Patterns in London
-## IJC445 Data Visualisation Coursework (2025–2026)
-### Overview
+# IJC445 – Data Visualisation Project
 
-This project examines how temporal scale and environmental framing influence the interpretation of PM2.5 variability and WHO guideline exceedance in London between 2016 and 2025.
+## Module Information
 
-Rather than treating visualisation as a neutral display tool, the analysis approaches it as an analytical framing process. Different representations — smoothing, aggregation, thresholding, and environmental categorisation — shape how pollution risk is perceived and understood.
+**Module:** IJC445 – Data Visualisation  
+**Programme:** MSc Data Science  
+**Institution:** University of Sheffield  
 
-### Research Question
+This repository contains the individual coursework project for the IJC445 module. The project examines how visualisation choices shape the interpretation of PM2.5 air quality data in London, with particular attention to temporal scale, environmental framing, and regulatory thresholds.
 
+The analysis builds on the dataset used in the IJC437 coursework and focuses on visual knowledge construction rather than predictive performance. Visualisation is treated as an analytical framing process, where design decisions influence how variability, compliance, and risk are perceived.
+
+---
+
+## Research Question
+
+**RQ:**  
 How does the choice of temporal scale and environmental framing (season and daily weather conditions) shape the interpretation of PM2.5 variability and WHO guideline exceedance in London (2016–2025)?
 
-The project connects empirical air quality data with regulatory relevance, demonstrating how design decisions alter interpretive emphasis.
+---
 
-Composite Visualisation Structure
+## Composite Visualisation Overview
 
-The analysis consists of four coordinated figures:
+The analysis is structured around a composite visualisation consisting of four coordinated charts:
 
-Figure 1 — Daily PM2.5 and 30-Day Rolling Mean
+- **Figure 1:** Daily PM2.5 concentrations with a 30-day rolling mean, highlighting the contrast between short-term volatility and smoothed trends.
 
-Highlights the contrast between short-term volatility and smoothed temporal trends.
+- **Figure 2:** Annual share of days exceeding the WHO 24-hour PM2.5 guideline, framing air quality through regulatory compliance.
 
-Figure 2 — Annual WHO Guideline Exceedance Share
+- **Figure 3:** Distributional comparison of PM2.5 concentrations under different weather conditions (temperature, wind, precipitation, humidity).
 
-Uses a 100% stacked bar chart to emphasise regulatory compliance framing.
+- **Figure 4:** Season × Year heatmap of mean PM2.5 concentrations, revealing recurring seasonal structure and contextualising exceedance patterns.
 
-Figure 3 — PM2.5 Distributions by Weather Conditions
+Together, these figures demonstrate that PM2.5 risk is not defined by a single metric but emerges from the interaction of temporal aggregation, environmental categorisation, and threshold-based framing.
 
-Compares concentration distributions across temperature, wind, precipitation, and humidity categories.
+---
 
-Figure 4 — Season × Year Heatmap of Mean PM2.5
+## Data Sources
 
-Reveals recurring seasonal structure and contextualises exceedance patterns.
+- **OpenAQ** – Daily PM2.5 air quality measurements from monitoring stations across London  
+  https://openaq.org/
 
-Together, these figures demonstrate that air quality risk is relational rather than singular — shaped by scale, aggregation, and environmental context.
+- **Open-Meteo** – Daily meteorological data (temperature, wind speed, precipitation, humidity)  
+  https://open-meteo.com
 
-Data Sources
+- **World Health Organization (WHO)** – 24-hour PM2.5 guideline (15 µg/m³)
 
-Daily PM2.5 measurements (London monitoring stations)
+The same core dataset as IJC437 is used, with additional derived variables created specifically for visualisation purposes.
 
-Daily meteorological variables (temperature, wind speed, precipitation, humidity)
+---
 
-WHO 24-hour PM2.5 guideline (15 µg/m³)
+## Repository Structure
 
-Weather data were merged with PM2.5 records and categorised for comparative analysis.
-
-Repository Structure
 data/
-  primary_pm25_daily_london.csv
-  openmeteo_daily_london.csv
-  merged_pm25_weather.csv
+primary_pm25_daily_london.csv
+openmeteo_daily_london.csv
+merged_pm25_weather.csv
 
 scripts/
-  00_setup_packages.R
-  01_data_preparation.R
-  02_visualisations.R
+00_setup_packages.R
+01_data_preparation.R
+02_visualisations.R
 
 output/
-  figures/
+figures/
 
-Reproducibility
 
-To reproduce the full analysis:
+The repository structure separates data, scripts, and outputs to support transparency and reproducibility. All figures in the written report are generated directly from the scripts in this repository.
 
-Run 00_setup_packages.R
+---
 
-Run 01_data_preparation.R
+## Visualisation Workflow
 
-Run 02_visualisations.R
+### Data Preparation
 
-All figures used in the coursework report are generated directly from these scripts.
+PM2.5 measurements are cleaned and merged with daily meteorological variables. Weather variables are categorised to support distributional comparison and environmental framing.
 
-Key Contribution
+### Visual Analysis
 
-This project demonstrates that:
+Multiple visual representations are constructed to examine how different framing choices alter interpretation:
 
-Smoothing alters perceived stability
+- Raw versus smoothed time series  
+- Threshold exceedance versus magnitude  
+- Environmental categorisation versus seasonal aggregation  
 
-Threshold framing alters perceived compliance
+### Interpretation
 
-Environmental categorisation alters perceived causality
+The composite visualisation is analysed using the ASSERT framework and the Grammar of Graphics, with additional consideration of accessibility, ethical implications, and design trade-offs.
 
-Seasonal aggregation alters perceived risk clustering
+---
 
-Visualisation choices therefore act as analytical decisions that structure interpretation.
+## How to Reproduce the Analysis
 
-Possible Extensions
+1. Clone this repository locally.  
+2. Open RStudio and set the working directory to the repository root.  
+3. Ensure R (version 4.2 or later) is installed.  
+4. Run the scripts in the following order:
 
-Sensitivity analysis of rolling window sizes
+   - `00_setup_packages.R`  
+   - `01_data_preparation.R`  
+   - `02_visualisations.R`  
 
-Integration of traffic or emissions data
+All figures will be automatically saved to the `output/figures/` directory.
 
-Alternative smoothing techniques
+---
 
-Interactive visual exploration
+## Notes on Reproducibility
 
-Explicit uncertainty visualisation
+- Scripts are designed to be run sequentially and include in-code documentation.  
+- The analysis uses open-access data, enabling full replication.  
+- Visual outputs correspond directly to figures discussed in the coursework report.
+
+---
+
+## Author
+
+**Aliakbar Rzayev**  
+MSc Data Science  
+University of Sheffield  
