@@ -65,7 +65,7 @@ The same core dataset as IJC437 is used, with additional derived variables creat
 ---
 
 ## Repository Structure
-
+```text
 code/
 00_setup_packages.R
 01_fetch_openmeteo_weather.R
@@ -86,7 +86,7 @@ Fig2_yearly_stacked_who_days.png
 Fig3_boxplots_weather_conditions.png
 Fig4_season_year_heatmap_mean.png
 
-
+```
 The repository structure separates data, scripts, and outputs to support transparency and reproducibility. All figures in the written report are generated directly from the scripts in this repository.
 
 ---
