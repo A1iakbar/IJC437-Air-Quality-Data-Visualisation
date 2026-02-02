@@ -25,6 +25,7 @@ The analysis is structured around a composite visualisation consisting of four c
 
 
 <img width="3000" height="1350" alt="Fig1_timeseries_raw_vs_roll30" src="https://github.com/user-attachments/assets/f787ba34-3be2-4303-9e11-68f7dc84d2bd" />
+
 - **Figure 1:** Daily PM2.5 concentrations with a 30-day rolling mean, highlighting the contrast between short-term volatility and smoothed trends.
 
 
