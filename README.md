@@ -66,20 +66,25 @@ The same core dataset as IJC437 is used, with additional derived variables creat
 
 ## Repository Structure
 
-data/
-/processed/pm25_weather_viz_ready
-primary_pm25_daily_london.csv
-openmeteo_daily_london.csv
-merged_pm25_weather.csv
-
-scripts/
+code/
 00_setup_packages.R
 01_fetch_openmeteo_weather.R
 02_data_preparation.R
 03_visualisations.R
 
+data/
+primary_pm25_daily_london.csv
+openmeteo_daily_london.csv
+merged_pm25_weather.csv
+processed/pm25_weather_viz_ready
+
 output/
 figures/
+Composite_4figures.png
+Fig1_timeseries_raw_vs_roll30.png
+Fig2_yearly_stacked_who_days.png
+Fig3_boxplots_weather_conditions.png
+Fig4_season_year_heatmap_mean.png
 
 
 The repository structure separates data, scripts, and outputs to support transparency and reproducibility. All figures in the written report are generated directly from the scripts in this repository.
