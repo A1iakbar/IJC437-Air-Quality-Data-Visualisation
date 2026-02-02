@@ -6,9 +6,9 @@ This project examines how temporal scale and environmental framing influence the
 
 Rather than treating visualisation as a neutral display tool, the analysis approaches it as an analytical framing process. Different representations — smoothing, aggregation, thresholding, and environmental categorisation — shape how pollution risk is perceived and understood.
 
-Research Question
+### Research Question
 
-How does the choice of temporal scale and environmental framing (season and daily weather conditions) shape the interpretation of PM2.5 variability and WHO guideline exceedance in London (2016–2025)?
+@ How does the choice of temporal scale and environmental framing (season and daily weather conditions) shape the interpretation of PM2.5 variability and WHO guideline exceedance in London (2016–2025)?
 
 The project connects empirical air quality data with regulatory relevance, demonstrating how design decisions alter interpretive emphasis.
 
