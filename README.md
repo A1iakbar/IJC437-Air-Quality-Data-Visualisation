@@ -119,8 +119,10 @@ The composite visualisation is analysed using the ASSERT framework and the Gramm
 4. Run the scripts in the following order:
 
    - `00_setup_packages.R`  
-   - `01_data_preparation.R`  
-   - `02_visualisations.R`  
+   - `01_fetch_openmeteo_weather.R`  
+   - `02_data_preparation.R`
+   - `03_visualisations.R `
+
 
 All figures will be automatically saved to the `output/figures/` directory.
 
