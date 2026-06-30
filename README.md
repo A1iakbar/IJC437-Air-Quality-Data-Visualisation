@@ -1,12 +1,6 @@
-# IJC445 – Data Visualisation Project
+Data Visualisation Project
 
-## Module Information
-
-**Module:** IJC445 – Data Visualisation  
-**Programme:** MSc Data Science  
-**Institution:** University of Sheffield  
-
-This repository contains the individual coursework project for the IJC445 module. The project examines how visualisation choices shape the interpretation of PM2.5 air quality data in London, with particular attention to temporal scale, environmental framing, and regulatory thresholds.
+The project examines how visualisation choices shape the interpretation of PM2.5 air quality data in London, with particular attention to temporal scale, environmental framing, and regulatory thresholds.
 
 The analysis builds on the dataset used in the IJC437 coursework and focuses on visual knowledge construction rather than predictive performance. Visualisation is treated as an analytical framing process, where design decisions influence how variability, compliance, and risk are perceived.
 
